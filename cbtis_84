@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialidad de Informática - CBTIS 84</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #800020;
+            color: #ffffff;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h2 {
+            margin: 0;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            width: calc(100% - 270px);
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #333333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>CBTIS 84</h2>
+        <ul>
+            <li><a href="#bachillerato">Bachillerato</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#actividades">Actividades Extracurriculares</a></li>
+            <li><a href="#esparcimiento">Áreas de Esparcimiento</a></li>
+            <li><a href="#servicio-social">Servicio Social</a></li>
+            <li><a href="#practicas">Prácticas Profesionales</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="bachillerato">
+            <h1>Bachillerato en Informática</h1>
+            <p>El Cbtis 84 ofrece realizar actividades dirigidas al desarrollo de software de aplicación en plataformas de escritorio, Web y móviles, utilizando los paradigmas de programación estruturada, programación orientada a objetos y eventos, aplicando metodologías de la Ingeniería de Software.</p>
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.43%20AM.jpeg" alt="Bachillerato">  
+        </section>
+        
+        <section id="conocimientos">
+            <h2>Conocimientos Adquiridos</h2>
+            <p>Los estudiantes adquieren conocimientos en programación, redes, seguridad informática, desarrollo web, y bases de datos, entre otros.</p>
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.43%20AM%20(2).jpeg" alt="Conocimientos">  
+        </section>
+        
+        <section id="actividades">
+            <h2>Actividades Extracurriculares</h2>
+            <p>El CBTIS 84 organiza diversas actividades extracurriculares como competencias de programación, Prototipos, deporte de futbol, basquetbol, voley, el futbol puede formar equipos tanto femenil y baronil, ferias tecnológicas y talleres especializados.</p>
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.07%20AM.jpeg" alt="Actividades Extracurriculares">
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.07%20AM%20(1).jpeg" alt="Actividades Extracurriculares">
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.22.35%20AM.jpeg" alt="Actividades Extracurriculares">
+        </section>
+        
+        <section id="esparcimiento">
+            <h2>Áreas de Esparcimiento</h2>
+            <p>Los estudiantes tienen acceso a áreas recreativas como canchas deportivas, salas de descanso, biblioteca, auditorio y espacios para eventos estudiantiles.</p>
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.07%20AM%20(2).jpeg" alt="Areas de esparcimiento">
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.08%20AM.jpeg" alt="Areas de esparcimiento">
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.22.37%20AM.jpegfile:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.22.37%20AM.jpeg" alt="Areas de esparcimiento">
+ 
+ 
+       </section>
+        
+        <section id="servicio-social">
+            <h2>Servicio Social</h2>
+            <p>El servicio social es una parte fundamental del currículo, permitiendo a los estudiantes aplicar sus conocimientos en proyectos comunitarios y organizaciones.</p>
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.09%20AM.jpeg"> alt="Servicio social">  
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.08%20AM%20(2).jpeg" alt="Servicio social">  
+
+        </section>
+        
+        <section id="practicas">
+            <h2>Prácticas Profesionales</h2>
+            <p>Las prácticas profesionales brindan a los estudiantes la oportunidad de trabajar en empresas del sector tecnológico, ganando experiencia valiosa y contacto con el mundo laboral.</p>
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.09%20AM%20(2).jpeg"> alt="Practicas profecionales"> 
+            <img src="file:///C:/Users/Usuario/Downloads/WhatsApp%20Image%202024-08-16%20at%208.04.09%20AM%20(5).jpeg">   
+        
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 CBTIS 84. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
